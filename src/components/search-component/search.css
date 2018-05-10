@@ -1,0 +1,41 @@
+
+.search-group{
+    margin: 10% auto ;
+}
+
+.logo{
+    width: 500px;
+    margin: 20px auto 20px auto;
+}
+
+.title{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.search{
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+}
+
+/* ELEMENTS */
+
+.title__text{
+    text-align: center;
+    color: #363635;
+    font-size: 50px;
+    font-family: Bitter, serif;
+}
+
+.search__input{
+    display: block;
+    font-size: 30px;
+    width: 500px;
+    margin: 0 auto;
+    color: #363635;
+    padding: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FDFDFD;
+    text-align: center;
+}
