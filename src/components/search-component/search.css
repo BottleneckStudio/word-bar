@@ -24,19 +24,24 @@
 }
 
 .typewriter h1 {
+    display: block;
     color: #363635;
     overflow: hidden;
     border-right: .15em solid #888888;
     white-space: nowrap;
     margin: 0 auto;
+    width: 0;
+    transition: width 1.5s steps(20, end);
+    animation: blink-caret .9s step-end infinite;
 }
 
 .typing{
-  animation: typing 1.5s steps(20, end), blink-caret .9s step-end infinite;
+  /*animation: typing 1.5s steps(20, end), blink-caret .9s step-end infinite;*/
+  width: 100% !important;
 }
 
 .deleting{
-  animation: deleting 1.5s steps(20, end), blink-caret .9s step-end infinite;
+  width: 0% !important;
 }
 
 /* ELEMENTS */
