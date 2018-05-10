@@ -4,7 +4,7 @@ import './result.css';
 class Result extends Component {
   render() {
     return (
-        <div className="result-overlay active fade-in-up">
+        <div className="result-overlay fade-in-up">
         <div className="container">
             <div className="row">
                 <div className="searched">

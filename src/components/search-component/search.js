@@ -11,8 +11,8 @@ class App extends Component {
                     <div className="logo">
                         <img src={Logo} alt="" />
                     </div>
-                    <div className="title">
-                        <h1 className="title__text">"Word Bar"</h1>
+                    <div className="title typewriter">
+                        <h1 className="title__text typing">"Word Bar"</h1>
                     </div>
                     <div className="search">
                         <input className="search__input" type="" name="" placeholder="Give him any word" />
