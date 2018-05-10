@@ -5,7 +5,7 @@
 
 .logo{
     width: 500px;
-    margin: 20px auto 20px auto;
+    margin: 20px auto;
 }
 
 .title{
@@ -17,6 +17,26 @@
     padding: 10px 20px;
     position: relative;
     width: 100%;
+}
+
+.typewriter{
+    margin: 20px auto;
+}
+
+.typewriter h1 {
+    color: #363635;
+    overflow: hidden;
+    border-right: .15em solid #888888;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+.typing{
+  animation: typing 1.5s steps(20, end), blink-caret .9s step-end infinite;
+}
+
+.deleting{
+  animation: deleting 1.5s steps(20, end), blink-caret .9s step-end infinite;
 }
 
 /* ELEMENTS */
@@ -38,4 +58,24 @@
     border: 1px solid #E8E8E8;
     background: #FDFDFD;
     text-align: center;
+}
+
+
+
+/* KEYFRAMES */
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes deleting{
+  from{width: 100%}
+  to{ width: 0}
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #888888 }
 }
