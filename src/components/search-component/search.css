@@ -35,8 +35,8 @@
     animation: blink-caret .9s step-end infinite;
 }
 
-.typewriter.typing{
-  width: 100% !important;
+.typing{
+    width: 100% !important;
 }
 
 /* ELEMENTS */
