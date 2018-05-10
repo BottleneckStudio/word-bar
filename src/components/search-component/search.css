@@ -1,0 +1,68 @@
+
+.search-group{
+    margin: 10% auto ;
+}
+
+.logo{
+    width: 500px;
+    margin: 20px auto;
+}
+
+.title{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.search{
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+}
+
+.typewriter{
+    margin: 20px auto;
+}
+
+.typewriter h1 {
+    display: block;
+    color: #363635;
+    overflow: hidden;
+    border-right: .15em solid #888888;
+    white-space: nowrap;
+    margin: 0 auto;
+    width: 0;
+    transition: width 1.5s steps(20, end);
+    animation: blink-caret .9s step-end infinite;
+}
+
+.typing{
+    width: 100% !important;
+}
+
+/* ELEMENTS */
+
+.title__text{
+    text-align: center;
+    color: #363635;
+    font-size: 50px;
+    font-family: Bitter, serif;
+}
+
+.search__input{
+    display: block;
+    font-size: 30px;
+    width: 500px;
+    margin: 0 auto;
+    color: #363635;
+    padding: 10px;
+    border: 1px solid #E8E8E8;
+    background: #FDFDFD;
+    text-align: center;
+}
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #888888 }
+}
