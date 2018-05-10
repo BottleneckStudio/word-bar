@@ -35,13 +35,8 @@
     animation: blink-caret .9s step-end infinite;
 }
 
-.typing{
-  /*animation: typing 1.5s steps(20, end), blink-caret .9s step-end infinite;*/
+.typewriter.typing{
   width: 100% !important;
-}
-
-.deleting{
-  width: 0% !important;
 }
 
 /* ELEMENTS */
@@ -65,19 +60,6 @@
     text-align: center;
 }
 
-
-
-/* KEYFRAMES */
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-@keyframes deleting{
-  from{width: 100%}
-  to{ width: 0}
-}
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
